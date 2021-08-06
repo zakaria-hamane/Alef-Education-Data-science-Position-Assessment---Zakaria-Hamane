@@ -101,6 +101,6 @@ Otherwise, we obtain a prediction from the list below:
 *Note: when executing the app.py script in your terminal wait for the server to run
 and access the web app from localhost:port in you browser as shown below.*
 
-![terminal1](https://im.ge/i/hYLOf) ![terminal2](https://im.ge/i/hYUmm)
+![terminal1](https://i.im.ge/2021/08/07/hYLOf.jpg) ![terminal2](https://i.im.ge/2021/08/07/hYUmm.jpg)
 
-![webapp1](https://im.ge/i/hYDH1) ![webapp2](https://im.ge/i/hY7yP)
+![webapp1](https://i.im.ge/2021/08/07/hYDH1.jpg) ![webapp2](https://i.im.ge/2021/08/07/hY7yP.jpg)
