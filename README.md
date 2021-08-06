@@ -1,7 +1,7 @@
 # Grade Prediction
 
 
-#I- Goal
+# I- Goal
 
 The purpose of this ML model is to take a problem description, a question, a student's answer,
 and whether or not the response is correct, correct, contradictory, or incorrect.
@@ -16,7 +16,7 @@ The core features of this project are:
 * A Web-based demo that runs the ML model via a Flask REST API
 
 
-#II- Install
+# II- Install
 The Python libreries required to run the scripts in this repository are listed in the requirements.txt file.
 We recommend using Python= 3.8 and a virtualenv. 
 
@@ -41,7 +41,7 @@ $ pip3 install -r requirements.txt
 ```
 
 
-#III- Data
+# III- Data
 Data comes from *Alef Education* for the *Technical Assessment for Data science Position*
 The DT-Grade corpus is made up of brief built answers collected from tutorial dialogues between students and "DeepTutor" a cutting-edge conversational Intelligent Tutoring System (ITS) (Ruset al., 2013; Rus et al., 2015).
 The veracity of the student responses in the particular context was noted, as well as if the contextual information was helpful.
@@ -73,7 +73,7 @@ A hash key was generated in the references text file to identify each problem an
 This will aid in the lookup when classifying a new instance based on its resemblance to references from the same question.
 
 
-#V- Model Training and Evaluation Phase
+# V- Model Training and Evaluation Phase
 A jupyter notebook contains all of the stages for feature engineering, model training, and evaluation.
 **Training and Evaluation.ipynb**  
 
@@ -84,7 +84,7 @@ To maximize the amount of observations used for training, we penalize the model 
 The global accuracy and the F1-score for each class are used to assess the system's performance.
 
 
-#VI- Deployment phase webapp demo
+# VI- Deployment phase webapp demo
 You may put the prediction to the test by using the following web app:
 ```
 $ python3 app.py
