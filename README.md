@@ -47,7 +47,7 @@ The DT-Grade corpus is made up of brief built answers collected from tutorial di
 The veracity of the student responses in the particular context was noted, as well as if the contextual information was helpful.
 There are 900 responses in the dataset (of which about 25 percent required contextual information to properly interpret them).
 
-#IV- Pre-processing phase
+# IV- Pre-processing phase
 The original data (grade data.xml) is in XML format.
 Split the data into ten percent "references", "seventy percent" train, and "twenty percent" test sets using the pre-processing script.
 In the "references" set, the script generates a numerical representation of all reference answers and student replies.
