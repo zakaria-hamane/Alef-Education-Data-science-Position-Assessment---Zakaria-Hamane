@@ -22,10 +22,16 @@ We recommend using Python= 3.8 and a virtualenv.
 
 1- Before installing the essential packages, upgrade your Python package manager pip:
 ```
-$ pip install --upgrade pip
+$ sudo apt-get update
+```
+```
+$ sudo apt-get install python3-pip
 ```
 
 To build a virtual environment, run the following command at the terminal.
+```
+$ apt install python3-virtualenv
+```
 ```
 $ virtualenv dt-grade
 ```
